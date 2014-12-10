@@ -5,5 +5,109 @@
         <link rel="stylesheet" href="main.css">
         <title>Sedona</title>
     </head>
-    <body></body>
+    <body>
+        <nav class="menu">
+            <a class="menu__item  menu__item_position_left" href="#">Информация</a>
+            <a class="menu__item  menu__item_position_left" href="#">Фото и видео</a>
+            <a class="menu__item  menu__item_position_right" href="#">Карта штата</a>
+            <a class="menu__item  menu__item_position_right" href="#">Гостиницы</a>
+        </nav>
+        <a class="logo" href="#"><img class="logo__image" src="url"></a>
+        <section class="welcome">
+            <img class="welcome__text"  src="#"></img>
+            <img class="welcome__subtitle"  src="#"></img>
+            <img class="welcome__title"  src="#"></img>
+            <img class="welcome__slogan"  src="#"></img>
+        </section>
+        <section class="features">
+            <h3 class="features__title  title">Седона — небольшой городок в Аризоне,  заслуживающий большего!</h3>
+            <p class="features__subtitle">Рассмотрим 5 причин, по которым Седона круче, чем Гранд каньон!</p>
+            <div class="features__container">
+                <div class="features__item  features__item_theme_accent">
+                    <h3 class="features__title">Настоящий городок</h3>
+                    <span class="features__number">№1</span>
+                    <p class="features__subtitle">Седона не атракцион для туристов, там течёт своя жизнь</p>
+                </div>
+                <div class="features__image"></div>
+            </div>
+            <div class="features__container">
+                <div class="features__advice  feature__advice_icon_home">
+                    <h3 class="features__title  title">Жилье</h3>
+                    <p class="features__subtitle">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+                </div>
+                <div class="features__advice  features__advice_icon_eat">
+                    <h3 class="features__title  title">Еда</h3>
+                    <p class="features__subtitle">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </div>
+                <div class="features__advice  features__advice_icon_gift">
+                    <h3 class="features__title  title">Сувениры</h3>
+                    <p class="features__subtitle">Не только китайского но и местного производства</p>
+                </div>
+            </div>
+            <div class="features__container">
+                <div class="features__image"></div>
+                <div class="features__item  features__item_theme_accent">
+                    <h3 class="features__title  title">Там есть мост дьявола</h3>
+                    <span class="features__number">№2</span>
+                    <p class="features__subtitle">Да, по нему можно пройти! Если конечно вы осмелитесь!</p>
+                </div>
+            </div>
+            <div class="features__container">
+                <div class="features__item">
+                    <h3 class="features__title  title">Небольшая площадь</h3>
+                    <span class="features__number">№3</span>
+                    <p class="features__subtitle">Все достопримечательности находятся очень близко</p>
+                </div>
+                <div class="features__item">
+                    <h3 class="features__item  title">Красивая дорога</h3>
+                    <span class="features__number">№4</span>
+                    <p class="features__subtitle">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+                </div>
+                <div class="features__item">
+                    <h3 class="features__title  title">Мало туристов</h3>
+                    <span class="features__number">№5</span>
+                    <p class="features__subtitle">Большинство едет в каньон и толпится там</p>
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <h2 class="search__title  title  title_size_big">Заинтересовались?</h2>
+            <p class="search__subtitle">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <form action="url" method="post" >
+                <div class="input">
+                    <h3 class="search__title  title  title_them_white">Поиск гостиницы в Седоне</h3>
+                    <div class="search__item">
+                        <label class="input__label">Дата заезда:</label>
+                        <input class="input__control" type="date" name="arrival" value="24 апреля 2014" required>
+                    </div>
+                    <div class="search__item">
+                        <label class="input__label">Дата выезда:</label>
+                        <input class="input__control" type="date" name="departure" value="4 июля 2014" required>
+                    </div>
+                    <div class="search__item">
+                        <label class="input__label">Взрослые:</label>
+                        <input class="input__control" type="number" name="adults children" min="0" max="10" step="1">
+                    </div>
+                    <div class="search__item">
+                        <label class="input__label">Дети:</label>
+                        <input class="input__control" type="number" name="children" min="0" max="10" step="1">
+                    </div>
+                    <input class="button" type="submit" name="search" value="Найти">
+                </div>
+            </form>
+        </section>
+        <div class="map"></div>
+        <footer class="footer">
+            <a class="hashtag  title" href="#"> #visitsedona</a>
+            <div class="social">
+                <a class="button  social__button_link_tw" href="#"></a>
+                <a class="button  social__button_link_fb" href="#"></a>
+                <a class="button  social__button_link_yt" href="#"></a>
+            </div>
+            <div class="copyright">
+                <a class="copyright__by  title  title_size_small" href="#">website by<img></a>
+                <a class="copyright__for  title  title_size_small" href="#">for<img></a>
+            </div>
+        </footer>
+    </body>
 </html>
